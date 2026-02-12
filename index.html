@@ -11,6 +11,11 @@
 </header>
 
 <main>
+    
+    <div id="image">
+    Hover over an image below to display here.
+    </div>
+
     <section>
         <h2>About Butterfly</h2>
         <p>
@@ -30,19 +35,25 @@
     </section>
 
     <section>
-        <h2>Butterfly Skins</h2>
+    <h2>Butterfly Skins</h2>
 
-        <img src="images/butterfly1.jpg"
-            alt="Butterfly Arena of Valor wearing her classic assassin outfit"
-            style="width:300px; height:auto;">
+    <img src="images/butterfly1.jpg"
+         alt="Butterfly Arena of Valor wearing her classic assassin outfit"
+         style="width:300px; height:auto;"
+         onmouseover="upDate(this)"
+         onmouseout="undo()">
 
-        <img src="images/butterfly2.png"
-            alt="Butterfly Arena of Valor skin with allain kirito"
-            style="width:300px; height:auto;">
+    <img src="images/butterfly2.png"
+         alt="Butterfly Arena of Valor skin with allain kirito"
+         style="width:300px; height:auto;"
+         onmouseover="upDate(this)"
+         onmouseout="undo()">
 
-        <img src="images/butterfly3.jpg"
-            alt="Butterfly Arena of Valor in winter"
-            style="width:300px; height:auto;">
+    <img src="images/butterfly3.jpg"
+         alt="Butterfly Arena of Valor in winter"
+         style="width:300px; height:auto;"
+         onmouseover="upDate(this)"
+         onmouseout="undo()">
 
     </section>
 
@@ -60,5 +71,9 @@
 <footer>
     <p>&copy; 2026 Nguyen</p>
 </footer>
+    
+<script src="script.js"></script>
+
 </body>
 </html>
+
